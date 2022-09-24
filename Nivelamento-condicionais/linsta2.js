@@ -128,5 +128,41 @@ console.log(`${nome} já viveu ${diasVividos} dias`);
 
 */
 
+/*
+// 11
+const sobrenome = prompt("Digite seu Sobrenome: ")
+const nome = prompt("Digite seu Nome: ")
 
+console.log(`Sr(a). ${nome} ${sobrenome}, é uma honra contar com sua presença!`)
+
+*/
+
+/*
+// 12
+const catetoAdjacente = parseInt(prompt("Digite o valor do cateto adjacente: "))
+const catetoOposto = parseInt(prompt("Digite o valor do cateto oposto: "))
+
+const hipotenusa = ((catetoAdjacente ** 2) + (catetoOposto ** 2))
+console.log(`Calculo da sua hipotenusa é: ${Math.sqrt(hipotenusa)} `)
+
+*/
+
+/*
+// 13
+const base = Number(prompt("Digite a base do triangulo: "))
+const altura = Number(prompt("Digite a altura do triangulo: "))
+
+const area = (base*altura)/2
+
+console.log(`A área do tringulo é ${area}`)
+
+*/
+
+/*
+// 14 
+const raio = Number(prompt("Digite o valor do raio: "))
+const area = (raio**2) * 3.14
+console.log(`A área do circulo é ${area.toFixed(2)}`);
+
+*/
 
