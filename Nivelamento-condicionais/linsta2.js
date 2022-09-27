@@ -166,3 +166,103 @@ console.log(`A área do circulo é ${area.toFixed(2)}`);
 
 */
 
+/*
+// 15
+const numeroPositivo = Number(prompt("Digite numero positivo e maior que zero: "))
+
+const numeroQuadrado = Math.pow(numeroPositivo, 2)
+const numeroCubo = Math.pow(numeroPositivo, 3)
+const raizQuadrada = Math.sqrt(numeroPositivo)
+const raizCubica = Math.cbrt(numeroPositivo)
+
+
+console.log(`${numeroPositivo} ao quadrado: ${numeroQuadrado}
+${numeroPositivo} ao cubo: ${numeroCubo}
+Raiz quadrada de ${numeroPositivo}:  ${raizQuadrada.toFixed(2)}
+Raiz cubica de ${numeroPositivo}: ${raizCubica.toFixed(2)}
+`);
+
+*/
+
+/*
+// 16
+
+const numero1 = Number(prompt("Digite o primeiro numero: "))
+const numero2 = Number(prompt("Digite o segundo numero: "))
+
+console.log(`O numero ${numero1} ** ${numero2} =${(numero1 ** numero2)} ` );
+
+*/
+
+/*
+// 17
+const medidas = parseInt(prompt("Digite a medida em pés : "))
+
+const polegadas = medidas * 12
+const jardas = medidas / 3 
+const milhas = jardas / 1760
+
+console.log(`Resultado das polegadas em pés ${polegadas}
+Resultado das jardas em pés ${jardas.toFixed(2)}
+Resultado das milhas em jardas ${milhas.toFixed(2)}
+`)
+*/
+
+/*
+// 18 
+
+const dataNascimento = prompt("Digite sua data de nascimento: dd/mm/yyyy")
+const arrayDataNascimento = dataNascimento.split("/")
+
+const dataAtual = parseInt(prompt("Digite ano atual: yyyy"))
+
+dataAtual === 2050 ? console.log(`Sua idade em 2050 será ${dataAtual - parseInt(arrayDataNascimento[2])}`) : console.log(`Sua idade é ${dataAtual - parseInt(arrayDataNascimento[2])}`)
+
+*/
+
+/*
+// 19
+const precoFabrica = Number(prompt("Digite o valor de fabrica do carro "))
+const percentualLucro = Number(prompt("Digite a porcentagem do lucro "))
+const percentualImposto = Number(prompt("Digite a porcentagem do imposto "))
+
+const lucro = (precoFabrica * percentualLucro)/100
+const imposto = (precoFabrica * percentualImposto)/100
+console.log(`a) Lucro do Distribuidor = ${lucro}
+b) Imposto = ${imposto}
+c) Preço final do veículo = ${ precoFabrica + lucro + imposto}` );
+
+*/
+
+/*
+// 20
+const horasTrabalhadas = Number(prompt("Digite o numero de horas trabalhadas: "))
+const salarioMinimo = Number(prompt("Digite o valor do salário mínimo: "))
+
+const calcHoraTrabalhada = salarioMinimo * 0.10
+const salarioBruto = horasTrabalhadas * calcHoraTrabalhada
+const imposto = salarioBruto * 0.3
+const salarioReceber = salarioBruto - imposto
+
+console.log(`a) Hora trabalhada ${calcHoraTrabalhada} por hora
+b) Salario Bruto ${salarioBruto} reais
+c) Imposto do salario bruto ${imposto.toFixed(2)}%
+d) Salario liquido a receber ${salarioReceber.toFixed(2)} reais`);
+
+*/
+
+/*
+// 21 
+const hora = Number(prompt("Digite uma hora "))
+const minutos = Number(prompt("Digite os minutos "))
+
+const horaEmMinutos = hora * 60
+const totalMinutos = horaEmMinutos + minutos
+
+console.log(`a) Hora convertida em minutos ${horaEmMinutos}
+Total de minutos ${totalMinutos}
+Total de minutos convertida em segundos ${totalMinutos * 60}`)
+
+*/
+
+
